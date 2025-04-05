@@ -1,14 +1,31 @@
 # practice-git
-まずパブリックした状態でcloneから一連のコマンドを試すこと。20250405
+ペリカンメールに送信されたパスコードを入力してWindowsでGitHubログインできた。
+Macでは何もしないで登録できた。OSが同じアカウントIDになっているからかも。。
 
-最終的にはSSH鍵設定周り設定する予定
 
-Gitへの接続が不安定であり、１回接続されたら安定的になるように見えるが
-HOSTS設定をWindows環境で試しはしたが、何も変わらないのまま
+# 20250405
+このrepositoryはpulicにしたため、cloneは簡単にできた
+当然ながらadd・commitはできるが、pushで設定関連が足りなく失敗
 
-ここからの作業はMacで行う
-GitHubログインでペリカンメールに送信されたパスコードを入力してWindowsで
-ログインできたら、Macでは何もしないで登録できた。OSが同じアカウントIDになっているから？
+ここからはSSH接続できるような作業を行い解決
+これでPUSHもできた
 
-コマンドに慣れるまではしばらく今の運用ままにする。
+これまでの作業はMacで実施
+
+https://qiita.com/Sicut_study/items/0318cc136c189b179b7f
+これ1本でGitをマスターできる
+
+
+# Git接続不安定の問題：調査中
+
+https://cloud.tencent.com/developer/article/2023920
+一分钟解决Github连接慢或者无法连接..冰河の他の文章もあとで見てみる
+https://ping.chinaz.com/github.com
+
+https://www.ermao.net/article/jddtxrrw/
+6种方法解决 GitHub 国内由于 DNS 污染导致无法访问的问题
+
+https://www.cnblogs.com/AurLemon/p/18648288
+GitHub SSH 老是连接超时的一个解决办法
+
 
